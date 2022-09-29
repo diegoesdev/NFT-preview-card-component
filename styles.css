@@ -17,8 +17,10 @@ html {
     --cyan: hsl(178, 100%, 50%);
     --white: hsl(0, 0%, 100%);
 /* Typography */
+
     /* Font size */
     --paragraph: 1.8rem;
+    
     /* Font weight */
     --light: 300;
     --regular: 400;
