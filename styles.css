@@ -26,3 +26,90 @@ html {
     --regular: 400;
     --semibold: 600;
 }
+
+body {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 550px;
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__info {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__info h1{
+    color: var(--white);  
+    font-size: 2.2rem;     
+}
+
+.card__info p {
+    color: var(--soft-blue);
+    font-size: var(--paragraph);
+    font-weight: var(--light);
+}
+
+.card__info--data {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.card__info--data div {
+    display: flex;
+    align-items: center;
+}
+
+.card__info--data img {
+    padding-right: 8px;
+}
+
+.card__info--data #eth {
+    font-size: var(--paragraph);
+    color: var(--cyan);
+}
+
+.card__info--data #days {
+    font-size: var(--paragraph);
+    color: var(--soft-blue);
+}
+
+.card__info--author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card__info--author img {
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+
+.card__info--author p {
+    padding-left: 20px;
+}
+
+.card__info--author p span {
+    color: var(--white);
+}
