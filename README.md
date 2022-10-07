@@ -32,8 +32,8 @@ Mientras que si el usuario usa una tableta o computadora, la vista se amplía:
 
 ### Links
 
-- Solución en Frontend Mentor: [Frontend Mentor](https://www.frontendmentor.io/solutions/faq-accordion-card-gKDPBeFh2V)
-- Live Site: [GitHub Pages](https://diegoesdev.github.io/FAQ-accordion-card/)
+- Solución en Frontend Mentor: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-K9kE-s6NL0)
+- Live Site: [GitHub Pages](https://diegoesdev.github.io/NFT-preview-card-component/)
 
 ## Proceso
 
@@ -41,13 +41,11 @@ Mientras que si el usuario usa una tableta o computadora, la vista se amplía:
 
 - HTML5
 - CSS3
-- JavaScript
 - Flexbox
-- CSS Grid
 - Mobile first 
 
 ### Lo que aprendí
 
-Con este desafío aprendí a posicionar una imagen que sale del flujo normal del documento pueda mantenerse anidada al contenedor padre al que pertenece. También usando JavaScript, aprendí a ocultar diferentes elementos del documento cuando otros son seleccionados y finalmente a desplegarlos mediante un click.
+Con este desafío aprendí a colocar una imagen que por defecto está oculta pero cuando el usuario posiciona el cursor sobre la imagen, esta se visualiza.
 
 > No pares de aprender.
